@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajay Core | தமிழ் Viral Facts & Shorts</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="logo">
+      <img src="assets/ajaycore_round_logo.png" alt="Ajay Core" class="logo-img">
+      AJAY CORE
+    </a>
+
+    <div class="nav-links">
+      <a href="#home" class="nav-item active">Home</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#ourpages" class="nav-item">Our Pages</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#ourpages">Our Pages</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+
+  <!-- 1. Hero / Home Section -->
+  <section id="home" class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+
+      <img src="assets/ajaycore_round_logo.png" alt="Ajay Core Logo" class="hero-logo">
+      <h1 class="main-title">AJAY CORE</h1>
+      <p class="youtube-prof">YOUTUBER</p>
+      <p class="tagline">Viral Videos • Facts • Information</p>
+      <p class="sub-tagline">Daily Mind-Blowing Content from Ajay</p>
+      
+      <a href="https://www.youtube.com/@Ajay_Core07?sub_confirmation=1" 
+         target="_blank" class="btn-subscribe glow-slide-btn">
+        <span>Subscribe Now</span>
+        <div class="btn-glow"></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 2. About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-content">
+        <div class="about-text">
+            <p>Welcome to Ajay Core,</p><br>
+            <p>This channel is all about shocking facts 😳, viral trends 🔥, and hidden secrets 🌍 that you’ve probably never heard before. Every video is designed to grab your attention, make you think, and keep you entertained in just a few seconds.</p><br>
+           <p>From unbelievable truths to trending topics, Ajay Core brings you short, powerful, and engaging content that stands out from the rest. If you love discovering something new every day, this is the perfect place for you.</p>
+           <br> <p style="font-weight: bold;" >Subscribe now and be part of the journey 🚀!!</p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <img src="Assets/ajay studio picture.png" alt="Ajay Profile" class="about-img"> <!-- உன் photo போடு -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Our Pages / Social Links Section -->
+  <section id="ourpages" class="section pages-section">
+    <div class="container">
+      <h2 class="section-title">Our Pages</h2>
+      <div class="pages-grid">
+        <a href="https://www.youtube.com/@Ajay_Core07" target="_blank" class="page-card youtube">
+          <i class="icon">▶</i>
+          <h3>YouTube</h3>
+          <p>Main Channel - Viral Shorts & Facts</p>
+        </a>
+        <a href="https://www.instagram.com/ajay._.core?igsh=ZWc3Zjl1cnNia3hl" target="_blank" class="page-card instagram">
+          <i class="icon">📸</i>
+          <h3>Instagram</h3>
+          <p>Daily Reels & Behind Scenes</p>
+        </a>
+        <a href="https://www.facebook.com/share/1BxzBjMpaW/" target="_blank" class="page-card tiktok"> <!-- link மாத்திக்கோ -->
+          <i class="icon">🎵</i>
+          <h3>Facebook</h3>
+          <p>Extra Shorts Fun Videos</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-text">Business / Collaboration / Any Enquiry!</p>
+      
+      <div class="contact-info">
+        <p><strong>Email:</strong> proffeserajay279@gmail.com</p>
+        <p><strong>Instagram DM:</strong>ajay._.core</p>
+      </div>
+
+      <a href="mailto:proffeserajay279@gmail.com" class="btn-contact">Send Mail</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 AJAY CORE | Made with ❤️ in Tamil Nadu</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+    ham.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      ham.classList.toggle('active');
+    });
+    document.querySelectorAll('.mobile-menu a').forEach(a => {
+      a.addEventListener('click', () => {
+        menu.classList.remove('active');
+        ham.classList.remove('active');
+      });
+    });
+  </script>
+  <title>Ajay Core - Viral Facts & Trending Shorts</title>
+
+<meta name="description" content="Shocking facts, viral trends, hidden secrets and daily shorts.">
+
+<meta name="keywords" content="viral facts, trending shorts, shocking facts tamil, ajay core">
+</body>
+</html>
